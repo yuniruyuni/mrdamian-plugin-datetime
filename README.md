@@ -1,9 +1,9 @@
-[![npm version](https://badge.fury.io/js/mrdamian-plugin-panel.svg)](https://badge.fury.io/js/mrdamian-plugin-panel)
+[![npm version](https://badge.fury.io/js/mrdamian-plugin-datetime.svg)](https://badge.fury.io/js/mrdamian-plugin-datetime)
 [![code style: biome](https://img.shields.io/badge/code_style-biome-ff69b4.svg?style=flat-square)](https://github.com/biomejs/biome)
 
-# mrdamian-plugin-panel
+# mrdamian-plugin-datetime
 
-mrdamian-plugin-panel is a Mr.Damian plugin that allows a streamer operates Mr.Damian behavior via interactive panel.
+mrdamian-plugin-datetime is a Mr.Damian plugin that allows acquire formatted datetime string.
 
 ## Table of contents
 
@@ -26,7 +26,7 @@ mrdamian-plugin-panel is a Mr.Damian plugin that allows a streamer operates Mr.D
 
 1. Install via Mr.Damian's plugin installation screen.
 2. Write some settings in Mr.Damian's module config file.
-3. Then, panels will appear in your Mr.Damian management screen ✨
+3. Then, you can see `datetime` variable in your Mr.Damian's pipeline.
 
 ## Usage
 
