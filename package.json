@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.12",
-    "mrdamian-plugin": "^0.0.17"
+    "mrdamian-plugin": "^0.0.18"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
