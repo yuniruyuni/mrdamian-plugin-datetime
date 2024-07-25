@@ -1,14 +1,14 @@
 import dayjs from "dayjs";
-import type { Component, ComponentConfig, Field } from "mrdamian-plugin";
+import type { Action, Component, Field } from "mrdamian-plugin";
 
-export type DatetimeConfig = ComponentConfig & {
+export type DatetimeAction = Action & {
   args: {
     format: string;
   };
 };
 
-export default class Datetime implements Component<DatetimeConfig> {
-  async process(config: DatetimeConfig): Promise<Field> {
-    return dayjs().format(config.args.format);
+export default class Datetime implements Component<DatetimeAction> {
+  async process(action: DatetimeAction): Promise<Field> {
+    return dayjs().format(action.args.format);
   }
 }
